@@ -151,8 +151,7 @@ def delete_downloads(wp_version):
 
  
            
-#install_dir = sys.argv[1]
-install_dir = 'wordpress3'
+install_dir = sys.argv[1]
 if install_dir:
     install_dir = os.path.realpath(install_dir)
     print('LOG : Directory -> ',install_dir)
